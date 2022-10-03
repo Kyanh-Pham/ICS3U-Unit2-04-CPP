@@ -9,7 +9,7 @@
 int main() {
     // This function calculates the cost of a pizza
     const float RENT = 1;
-    const float LABOUR = 0.75;
+    const float LABOR = 0.75;
     const float COST_PER_INCH = 0.5;
     const float HST = 0.13;
 
@@ -22,7 +22,7 @@ int main() {
     std::cin >> diameter;
 
     // Process
-    sub_total = RENT + LABOUR + (diameter * COST_PER_INCH);
+    sub_total = RENT + LABOR + (diameter * COST_PER_INCH);
     total = sub_total * (1 + HST);
 
     // Output
